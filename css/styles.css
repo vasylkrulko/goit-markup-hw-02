@@ -13,6 +13,7 @@ ol {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* LOGO */
@@ -28,7 +29,7 @@ a {
 }
 
 .header-logo .logo-part {
-  color: #2e2f42; /
+  color: #2e2f42;
 }
 
 .footer-logo .logo-part {
@@ -65,7 +66,7 @@ a {
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf; /* ✅ виправлено */
+  color: #404bbf;
 }
 
 /* HERO */
@@ -104,7 +105,9 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .features-item-title {
@@ -119,6 +122,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* TEAM */
@@ -128,14 +132,12 @@ a {
 }
 
 .team-title {
-  .team-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-  }
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-item {
@@ -182,6 +184,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* FOOTER */
