@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -27,8 +27,14 @@ a {
   color: #000000;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
+/* HERO */
+
+.hero-button {
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .nav-link {
@@ -44,7 +50,6 @@ a {
 }
 
 .contacts-link {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -52,11 +57,29 @@ a {
 }
 
 .nav-link:hover,
-:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
 .contacts-link:hover,
-:focus {
+.contacts-link:focus {
   color: #4d5ae5;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
