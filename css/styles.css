@@ -111,6 +111,7 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -140,14 +141,18 @@ a {
 .team-item-title {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 
 .team-text {
   font-size: 16px;
-  text-align: center;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 /* PORTFOLIO */
@@ -162,6 +167,8 @@ a {
 .portfolio-item-title {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -180,5 +187,6 @@ a {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
